@@ -1,20 +1,54 @@
-14:54:54:281  INFO 17041 --- [main] com.example.pay.PayServiceApplication    : Starting PayServiceApplication using Java 11.0.8 on bogon with PID 17041 (/Users/xuchaoyue/IdeaProjects/study/hmall/pay-service/target/classes started by xuchaoyue in /Users/xuchaoyue/IdeaProjects/study/hmall)
-14:54:54:289 DEBUG 17041 --- [main] com.example.pay.PayServiceApplication    : Running with Spring Boot v2.7.12, Spring v5.3.27
-14:54:54:292  INFO 17041 --- [main] com.example.pay.PayServiceApplication    : The following 1 profile is active: "local"
-14:54:55:516  INFO 17041 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-14:54:55:519  INFO 17041 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-14:54:55:542  INFO 17041 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
-14:54:55:880  INFO 17041 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cd5b64d3-a1e4-3256-a846-c1ef3c1c211f
-14:54:56:278  INFO 17041 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8686 (http)
-14:54:56:284  INFO 17041 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-14:54:56:285  INFO 17041 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-14:54:56:415  INFO 17041 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-14:54:56:416  INFO 17041 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2055 ms
-14:54:56:681  INFO 17041 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-sercice' URL not provided. Will try picking an instance via load-balancing.
-14:54:56:758  INFO 17041 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'trade-service' URL not provided. Will try picking an instance via load-balancing.
-14:54:57:613  INFO 17041 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-14:54:58:080  INFO 17041 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8686 (http) with context path ''
-14:54:58:084  INFO 17041 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-14:54:58:087  INFO 17041 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-14:54:58:109  INFO 17041 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-14:54:58:237  INFO 17041 --- [main] com.example.pay.PayServiceApplication    : Started PayServiceApplication in 4.683 seconds (JVM running for 5.475)
+14:50:35:225  INFO 11343 --- [main] com.example.pay.PayServiceApplication    : Starting PayServiceApplication using Java 11.0.8 on bogon with PID 11343 (/Users/xuchaoyue/IdeaProjects/study/hmall/pay-service/target/classes started by xuchaoyue in /Users/xuchaoyue/IdeaProjects/study/hmall)
+14:50:35:242 DEBUG 11343 --- [main] com.example.pay.PayServiceApplication    : Running with Spring Boot v2.7.12, Spring v5.3.27
+14:50:35:245  INFO 11343 --- [main] com.example.pay.PayServiceApplication    : The following 1 profile is active: "local"
+14:50:36:434  INFO 11343 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14:50:36:437  INFO 11343 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:50:36:463  INFO 11343 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+14:50:36:776  INFO 11343 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cd5b64d3-a1e4-3256-a846-c1ef3c1c211f
+14:50:37:161  INFO 11343 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8686 (http)
+14:50:37:168  INFO 11343 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+14:50:37:168  INFO 11343 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+14:50:37:299  INFO 11343 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+14:50:37:301  INFO 11343 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1974 ms
+14:50:37:568  INFO 11343 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-sercice' URL not provided. Will try picking an instance via load-balancing.
+14:50:37:646  INFO 11343 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'trade-service' URL not provided. Will try picking an instance via load-balancing.
+14:50:38:557  INFO 11343 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+14:50:39:002  WARN 11343 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8686 is already in use
+14:50:39:025  INFO 11343 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+14:50:39:047  INFO 11343 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:50:39:059 ERROR 11343 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8686 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8686 or configure this application to listen on another port.
+
+14:51:02:577  INFO 11672 --- [main] com.example.pay.PayServiceApplication    : Starting PayServiceApplication using Java 11.0.8 on bogon with PID 11672 (/Users/xuchaoyue/IdeaProjects/study/hmall/pay-service/target/classes started by xuchaoyue in /Users/xuchaoyue/IdeaProjects/study/hmall)
+14:51:02:582 DEBUG 11672 --- [main] com.example.pay.PayServiceApplication    : Running with Spring Boot v2.7.12, Spring v5.3.27
+14:51:02:583  INFO 11672 --- [main] com.example.pay.PayServiceApplication    : The following 1 profile is active: "local"
+14:51:03:772  INFO 11672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14:51:03:774  INFO 11672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:51:03:801  INFO 11672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+14:51:04:129  INFO 11672 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cd5b64d3-a1e4-3256-a846-c1ef3c1c211f
+14:51:04:519  INFO 11672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8686 (http)
+14:51:04:526  INFO 11672 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+14:51:04:526  INFO 11672 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+14:51:04:657  INFO 11672 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+14:51:04:657  INFO 11672 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1999 ms
+14:51:04:914  INFO 11672 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-sercice' URL not provided. Will try picking an instance via load-balancing.
+14:51:04:987  INFO 11672 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'trade-service' URL not provided. Will try picking an instance via load-balancing.
+14:51:05:835  INFO 11672 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+14:51:06:299  INFO 11672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8686 (http) with context path ''
+14:51:06:303  INFO 11672 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+14:51:06:306  INFO 11672 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+14:51:06:328  INFO 11672 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+14:51:06:467  INFO 11672 --- [main] com.example.pay.PayServiceApplication    : Started PayServiceApplication in 4.594 seconds (JVM running for 5.403)

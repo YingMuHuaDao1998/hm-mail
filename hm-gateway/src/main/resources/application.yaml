@@ -12,6 +12,8 @@ spring:
           uri: lb://item-service # 路由的目标服务，lb代表负载均衡，会从注册中心拉取服务列表
           predicates: # 路由断言，判断当前请求是否符合当前规则，符合则路由到目标服务
             - Path=/items/**,/search/** # 这里是以请求路径作为判断规则
+          filters: # 路由过滤器，对请求进行拦截，比如鉴权，日志打印等
+            - AddRequestHeader=truth,ereyone is good #添加请求头
         - id: cart
           uri: lb://cart-service
           predicates:

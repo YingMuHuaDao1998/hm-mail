@@ -1,15 +1,15 @@
-14:54:23:651  INFO 16702 --- [main] com.example.hmapi.HmApiApplication       : Starting HmApiApplication using Java 11.0.8 on bogon with PID 16702 (/Users/xuchaoyue/IdeaProjects/study/hmall/hm-api/target/classes started by xuchaoyue in /Users/xuchaoyue/IdeaProjects/study/hmall)
-14:54:23:666  INFO 16702 --- [main] com.example.hmapi.HmApiApplication       : The following 1 profile is active: "dev"
-14:54:24:919  WARN 16702 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.hmapi]' package. Please check your configuration.
-14:54:25:018  INFO 16702 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=51de89f9-3e33-393a-a724-6add461dc3b1
-14:54:25:453  INFO 16702 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8484 (http)
-14:54:25:461  INFO 16702 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-14:54:25:462  INFO 16702 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-14:54:25:588  INFO 16702 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-14:54:25:590  INFO 16702 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1856 ms
-14:54:26:370  INFO 16702 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-14:54:26:666  INFO 16702 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8484 (http) with context path ''
-14:54:26:670  INFO 16702 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-14:54:26:672  INFO 16702 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-14:54:26:691  INFO 16702 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-14:54:26:713  INFO 16702 --- [main] com.example.hmapi.HmApiApplication       : Started HmApiApplication in 3.737 seconds (JVM running for 4.52)
+14:50:12:357  INFO 11082 --- [main] com.example.hmapi.HmApiApplication       : Starting HmApiApplication using Java 11.0.8 on bogon with PID 11082 (/Users/xuchaoyue/IdeaProjects/study/hmall/hm-api/target/classes started by xuchaoyue in /Users/xuchaoyue/IdeaProjects/study/hmall)
+14:50:12:372  INFO 11082 --- [main] com.example.hmapi.HmApiApplication       : The following 1 profile is active: "dev"
+14:50:13:601  WARN 11082 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.hmapi]' package. Please check your configuration.
+14:50:13:697  INFO 11082 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=51de89f9-3e33-393a-a724-6add461dc3b1
+14:50:14:119  INFO 11082 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8484 (http)
+14:50:14:128  INFO 11082 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+14:50:14:128  INFO 11082 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+14:50:14:249  INFO 11082 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+14:50:14:251  INFO 11082 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1807 ms
+14:50:15:013  INFO 11082 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+14:50:15:298  INFO 11082 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8484 (http) with context path ''
+14:50:15:301  INFO 11082 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+14:50:15:303  INFO 11082 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+14:50:15:318  INFO 11082 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+14:50:15:337  INFO 11082 --- [main] com.example.hmapi.HmApiApplication       : Started HmApiApplication in 3.674 seconds (JVM running for 4.402)
